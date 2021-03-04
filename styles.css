@@ -71,6 +71,11 @@ img {
 .nav-bar a:hover {
     border-bottom: 2px #fff solid;
 }
+   /*Grid Section*/
+.about-me {
+    height: 100%;
+    width: 100%;
+}
 
 .grid {
     display: grid;
@@ -80,9 +85,17 @@ img {
 }
 
 .about-me-text{
-    
     padding: 10px 10px;
     margin: 10px 10px;
-
 }
+
+.contacts {
+    height: 100%;
+    width: 100%;
+}
+.contacts a{
+    color: black;
+}
+
+
 
