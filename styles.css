@@ -39,6 +39,9 @@ img {
 .nav-bar {
     background-color: cornflowerblue;
     height: 70px;
+    width: 100vw;
+    position: fixed;
+
 }
 
 .nav-bar .flex {
@@ -57,6 +60,8 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+
+
 }
 .nav-bar ul {
     display: flex;
@@ -73,7 +78,9 @@ img {
 }
    /*Grid Section*/
 .about-me {
-    height: 100%;
+    position: absolute;
+    top: 100px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -89,8 +96,9 @@ img {
     margin: 10px 10px;
 }
 
-.contacts {
-    height: 100%;
+.contact {
+    position: absolute;
+    top: 1000px;
     width: 100%;
 }
 .contacts a{
